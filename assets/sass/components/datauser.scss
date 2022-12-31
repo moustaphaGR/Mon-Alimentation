@@ -1,0 +1,25 @@
+.dataUser {
+    background: linear-gradient(to right, #f45d92, #ef6f47);
+    .custom-shape-divider-bottom-1671193354 {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1671193354 svg {
+        position: relative;
+        display: block;
+        width: calc(234% + 1.3px);
+        height: 272px;
+        transform: rotateY(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1671193354 .shape-fill {
+        fill: #582A6138;
+    }
+    color: white;
+}

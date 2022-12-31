@@ -1,0 +1,29 @@
+@import "components/header.scss";
+@import "components/datauser.scss";
+@import "components/food.scss";
+@import "components/footer.scss";
+
+.containerApp {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main {
+    flex: 1;
+    overflow-y: scroll;
+}
+
+.doughnut {
+    width: 400px;
+    margin: auto;
+    position: relative;
+    .kcal{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 1.4rem;
+    }
+}
