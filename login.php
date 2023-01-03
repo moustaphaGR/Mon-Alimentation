@@ -1,6 +1,6 @@
 <?php
-    $page=["title" => "Track Calorie - Login"];
-    include_once("includes/header.php");
+$page = ["title" => "Track Calorie - Login"];
+include_once("includes/header.php");
 ?>
 
 <header>
@@ -33,7 +33,7 @@
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
 
-                <a href="register.php">register?</a>
+                <a href="register.php">Signup?</a>
             </div>
         </div>
     </div>
@@ -46,5 +46,5 @@
 
 
 <?php
-    include_once("includes/footer.php");
+include_once("includes/footer.php");
 ?>

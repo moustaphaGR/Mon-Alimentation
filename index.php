@@ -53,7 +53,8 @@ if (isset($_POST['inputRepas']) && isset($_POST['inputCalories'])) {
     $conn = null;
 
     // Redirect the user to a confirmation page
-    header('location:confirmation.php');
+    //header('location:confirmation.php');
+    header('location:index.php');
     exit;
 }
 

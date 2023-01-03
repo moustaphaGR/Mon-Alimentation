@@ -6,9 +6,11 @@
 
 <script src="assets/js/app.js"></script>
 <?php
-foreach ($meal as $key => $value) {
+if (isset($meal)) {
+    foreach ($meal as $key => $value) {
 
-    include 'chart-template-js.php';
+        include 'chart-template-js.php';
+    }
 } ?>
 
 </body>
